@@ -1,0 +1,30 @@
+.work-experience{
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    font-family:'Rubik';
+    p{
+        padding-top: 20px;
+        font-size: 24px;
+        line-height: 1.5;
+        #date{
+            font-weight: 900;
+            color:#272727;
+            background-color: beige;
+        }
+        #comment{
+            color: darkgray;
+        }
+    }
+    ul{
+        li{
+            text-indent: 2em;
+            font-size: 20px;
+            padding-top: 15px;
+            i{
+                font-size: 12px;
+                padding-right: 14px;
+            }
+        }
+    }
+}

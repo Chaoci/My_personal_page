@@ -1,0 +1,14 @@
+.logo-container{
+    font-size: 25px;
+    #mail, #phone, #github{ 
+        font-weight: bold;
+        font-size: 18px;
+        font-family:'Rubik';
+        margin-left: 10px;
+    }
+    a{
+        &:hover{
+            color:aqua;
+        }
+    }
+}

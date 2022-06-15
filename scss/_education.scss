@@ -1,0 +1,31 @@
+.education{
+    width: 80%;
+    margin: 0 auto;
+    h2{
+        padding-top: 20px;
+    }
+    ul{
+        li{
+            font-family:'Rubik';
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            p{
+                font-size: 24px;
+                margin-bottom: 10px;
+                #school{
+                    font-size: 32px;
+                }
+                #school1{
+                    font-size: 32px;
+                    margin-right: 225px; //推至對齊
+                }
+                #years{
+                    align-self: center;
+                }
+            }
+        }
+    }
+}

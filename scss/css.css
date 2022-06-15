@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: left;
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 45px;
+  font-family: "Rubik";
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100vw;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #F3F3FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrap .box {
+  overflow-y: overlay;
+}
+.wrap .box .content {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  height: auto;
+  width: auto;
+}
+.header .nav {
+  background-color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: -3px 2px 8px #ccc;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+.header .nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header .nav ul:hover li a {
+  transform: scale(1.5);
+  opacity: 0.2;
+  filter: blur(1px);
+}
+.header .nav ul li {
+  list-style: none;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+.header .nav ul li a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Rubik";
+  color: #ccc;
+  text-transform: uppercase;
+  transition: transform 0.5s;
+  border-radius: 15px;
+}
+.header .nav ul li a:hover {
+  transform: scale(1.5);
+  opacity: 1;
+  filter: blur(0);
+}
+.header .nav ul li a:hover:before {
+  transition: transform 0.5s;
+  transform-origin: right;
+  transform: scaleX(1);
+}
+.header .nav ul li a:before {
+  content: "";
+  position: absolute;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: azure;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: scaleX(0);
+  z-index: -1;
+}
+
+.box {
+  overflow-y: overlay;
+}
+
+.bigname {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+.bigname h1 {
+  font-size: 80px;
+  font-family: "Rubik";
+  border-bottom: 1px solid #000;
+}
+.bigname h1 #ch-name {
+  font-size: 40px;
+}
+
+.photo-inf-container {
+  width: 100%;
+}
+.photo-inf-container .photo img {
+  box-shadow: 1px 1px #ccc;
+}
+.photo-inf-container .about-me h2 {
+  font-size: 45px;
+  font-family: "Rubik";
+}
+.photo-inf-container .about-me p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-indent: 2em;
+}
+
+.logo-container {
+  font-size: 25px;
+}
+.logo-container #mail, .logo-container #phone, .logo-container #github {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Rubik";
+  margin-left: 10px;
+}
+.logo-container a:hover {
+  color: aqua;
+}
+
+.education {
+  width: 80%;
+  margin: 0 auto;
+}
+.education h2 {
+  padding-top: 20px;
+}
+.education ul li {
+  font-family: "Rubik";
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.education ul li p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.education ul li p #school {
+  font-size: 32px;
+}
+.education ul li p #school1 {
+  font-size: 32px;
+  margin-right: 225px;
+}
+.education ul li p #years {
+  align-self: center;
+}
+
+.work-experience {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Rubik";
+}
+.work-experience p {
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.work-experience p #date {
+  font-weight: 900;
+  color: #272727;
+  background-color: beige;
+}
+.work-experience p #comment {
+  color: darkgray;
+}
+.work-experience ul li {
+  text-indent: 2em;
+  font-size: 20px;
+  padding-top: 15px;
+}
+.work-experience ul li i {
+  font-size: 12px;
+  padding-right: 14px;
+}
+
+.language {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Rubik";
+}
+.language p {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.footer {
+  height: 90px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+}
+.footer a:hover {
+  color: aqua;
+}/*# sourceMappingURL=css.css.map */

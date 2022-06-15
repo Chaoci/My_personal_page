@@ -1,0 +1,11 @@
+.footer{
+    height: 90px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    a{
+        &:hover{
+            color:aqua;
+        }
+    }
+}

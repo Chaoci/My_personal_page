@@ -1,0 +1,69 @@
+.header{
+    height: auto;
+    width: auto;
+    .nav{
+        background-color: gray;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: -3px 2px 8px #ccc;
+        border-radius: 0px 0px 10px 10px;
+        display: flex;
+        justify-content: center;
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            &:hover{
+                li{
+                    a{
+                        transform: scale(1.5);
+                        opacity: .2;
+                        filter:blur(1px)
+                    }
+                }
+            }
+            li{
+                list-style: none;
+                margin: 0 20px;
+                transition: 0.5s;
+                a{
+                    display: block;
+                    position: relative;
+                    text-decoration: none;
+                    padding: 5px;
+                    font-size: 16px;
+                    font-family:'Rubik';
+                    color:#ccc;
+                    text-transform: uppercase;
+                    transition:transform 0.5s;
+                    border-radius: 15px;
+                    &:hover{
+                        transform: scale(1.5);
+                        opacity: 1;
+                        filter:blur(0);
+                        &:before{
+                            transition: transform 0.5s;
+                            transform-origin: right;
+                            transform: scaleX(1);
+                        }
+                    }
+                    &:before{
+                        content: "";
+                        position: absolute;
+                        border-radius: 15px;
+                        top:0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: azure;
+                        transition:0.5s;
+                        transform-origin: left;
+                        transform:scaleX(0);
+                        z-index: -1;
+                    }
+                }
+            }
+        }
+    }
+}

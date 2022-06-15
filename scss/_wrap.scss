@@ -1,0 +1,16 @@
+.wrap{
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #F3F3FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; // 全頁面的垂直justify content 讓上下可以貼著 則表示不能先包container
+    .box{
+        overflow-y: overlay;
+        .content{
+            width: 1400px;
+            margin: 0 auto;
+        }
+    }
+}

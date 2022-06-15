@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    text-align: left;
+    font-size: 80px;
+}
+h2{
+    font-size: 45px;
+    font-family:'Rubik';
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+}
