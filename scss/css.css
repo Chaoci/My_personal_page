@@ -213,6 +213,10 @@ h2 {
   width: 80%;
   margin: 0 auto;
 }
+.education img {
+  margin-top: 10px;
+  width: 20%;
+}
 .education h2 {
   padding-top: 20px;
 }
@@ -229,7 +233,8 @@ h2 {
   margin-bottom: 10px;
 }
 .education ul li p #school {
-  font-size: 32px;
+  font-size: 30px;
+  margin-right: 12px;
 }
 .education ul li p #school1 {
   font-size: 32px;
@@ -248,7 +253,7 @@ h2 {
 .work-experience p {
   padding-top: 20px;
   font-size: 24px;
-  line-height: 1.5;
+  line-height: 2;
 }
 .work-experience p #date {
   font-weight: 900;
@@ -269,7 +274,7 @@ h2 {
 }
 
 .language {
-  padding-top: 20px;
+  padding-top: 40px;
   width: 80%;
   margin: 0 auto;
   font-family: "Rubik";
@@ -279,11 +284,50 @@ h2 {
   margin-top: 20px;
 }
 
+.skill {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik";
+}
+.skill .skill-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.skill .skill-container h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+.skill .skill-container ul {
+  padding-left: 10px;
+}
+.skill .skill-container ul li {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
 .footer {
   height: 90px;
   background-color: #ccc;
   display: flex;
   justify-content: center;
+}
+.footer h2 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 24px;
 }
 .footer a:hover {
   color: aqua;

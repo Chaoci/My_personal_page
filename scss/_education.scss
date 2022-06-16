@@ -1,6 +1,10 @@
 .education{
     width: 80%;
     margin: 0 auto;
+    img{
+        margin-top: 10px;
+        width: 20%;
+    }
     h2{
         padding-top: 20px;
     }
@@ -16,7 +20,8 @@
                 font-size: 24px;
                 margin-bottom: 10px;
                 #school{
-                    font-size: 32px;
+                    font-size: 30px;
+                    margin-right: 12px;
                 }
                 #school1{
                     font-size: 32px;
