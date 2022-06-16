@@ -90,7 +90,7 @@ h2 {
   overflow-y: overlay;
 }
 .wrap .box .content {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -331,4 +331,11 @@ h2 {
 }
 .footer a:hover {
   color: aqua;
+}
+
+@media (max-width: 768px) {
+  .photo-inf-container {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=css.css.map */
