@@ -71,6 +71,7 @@ h2 {
   font-family: "Rubik";
   border-bottom: 1px solid #ccc;
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 *, *:after, *:before {
@@ -267,6 +268,7 @@ h2 {
   text-indent: 2em;
   font-size: 20px;
   padding-top: 15px;
+  line-height: 2.5;
 }
 .work-experience ul li i {
   font-size: 12px;
