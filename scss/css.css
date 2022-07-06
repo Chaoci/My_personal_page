@@ -185,7 +185,8 @@ h2 {
 }
 
 .photo-inf-container {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 .photo-inf-container .photo img {
   box-shadow: 1px 1px #ccc;
@@ -420,11 +421,20 @@ h2 {
     width: 100%;
   }
 
+  .photo-inf-container {
+    width: 100%;
+  }
+
   .bigname h1 {
     font-size: 40px;
   }
   .bigname h1 #ch-name {
     font-size: 20px;
+  }
+
+  .skill-container {
+    flex-direction: column;
+    align-items: center;
   }
 
   h2 {

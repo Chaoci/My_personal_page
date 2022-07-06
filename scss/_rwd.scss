@@ -77,6 +77,9 @@
     .selfie{
         width: 100%;
     }
+    .photo-inf-container{
+        width: 100%;
+    }
     .bigname{
         h1{
             font-size: 40px;
@@ -85,6 +88,11 @@
             }
         }
     }
+    .skill-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
     h2{
         font-size: 25px;
     
