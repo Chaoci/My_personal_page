@@ -11,6 +11,9 @@
             li{
                 display:none;
                 width: 100%;
+                a{
+                    font-size: 55px;
+                }
                 &:hover{
                     transform: scale(0.7);
                 }
