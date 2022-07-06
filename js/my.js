@@ -8,8 +8,9 @@ $(function () {
 		$('.slide').parent().siblings().find("li").slideUp();
 	});
 
-    $(".slide li").click(function(e){
-        $('.slide').parent().find("li").slideToggle(800);
-        $('.slide').parent().siblings().find("li").slideUp(800);
-    })
+	
+    // $(".slide li").click(function(e){
+    //     $('.slide').parent().find("li").slideToggle(800);
+    //     $('.slide').parent().siblings().find("li").slideUp(800);
+    // })
 });
