@@ -21,12 +21,21 @@
             margin-bottom: 20px;
             border-bottom: 1px solid gray;
         }
-        ul{
-            padding-left: 10px;
-            li{
-                margin-top: 10px;
-                text-align: center;
-                font-size: 20px;
+        table{
+            margin-bottom: 20px;
+            tr{
+                padding-left: 10px;
+                td, th{
+                    margin-top: 10px;
+                    text-align: center;
+                    font-size: 20px;
+                    padding: 8px;
+                }
+                th{
+                    border: 1px solid black;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
             }
         }
     }

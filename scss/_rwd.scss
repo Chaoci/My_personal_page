@@ -4,3 +4,32 @@
         flex-direction: column;
     }
 }
+
+@media(max-width:450px){
+    .nav{
+        ul{
+            
+            li{
+                width: 100%;
+                &:hover{
+                    transform: scale(0.7);
+                }
+            }
+        }
+    }
+    .selfie{
+        width: 100%;
+    }
+    .bigname{
+        h1{
+            font-size: 40px;
+            #ch-name{
+                font-size: 20px;
+            }
+        }
+    }
+    h2{
+        font-size: 25px;
+    }
+    
+}

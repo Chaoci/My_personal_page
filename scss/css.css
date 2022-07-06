@@ -311,13 +311,22 @@ h2 {
   margin-bottom: 20px;
   border-bottom: 1px solid gray;
 }
-.skill .skill-container ul {
+.skill .skill-container table {
+  margin-bottom: 20px;
+}
+.skill .skill-container table tr {
   padding-left: 10px;
 }
-.skill .skill-container ul li {
+.skill .skill-container table tr td, .skill .skill-container table tr th {
   margin-top: 10px;
   text-align: center;
   font-size: 20px;
+  padding: 8px;
+}
+.skill .skill-container table tr th {
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .footer {
@@ -339,5 +348,28 @@ h2 {
   .photo-inf-container {
     display: flex;
     flex-direction: column;
+  }
+}
+@media (max-width: 450px) {
+  .nav ul li {
+    width: 100%;
+  }
+  .nav ul li:hover {
+    transform: scale(0.7);
+  }
+
+  .selfie {
+    width: 100%;
+  }
+
+  .bigname h1 {
+    font-size: 40px;
+  }
+  .bigname h1 #ch-name {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 25px;
   }
 }/*# sourceMappingURL=css.css.map */
