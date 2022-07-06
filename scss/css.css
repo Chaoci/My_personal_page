@@ -358,12 +358,62 @@ h2 {
     display: inline !important;
   }
 
+  .nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
   .nav ul li {
     display: none;
     width: 100%;
+    text-align: center;
   }
-  .nav ul li:hover {
-    transform: scale(0.7);
+  .nav ul:active li a {
+    transform: scale(0.3);
+    opacity: 0.2;
+    filter: blur(1px);
+  }
+  .nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    transition: 0.5s;
+  }
+  .nav ul li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Rubik";
+    color: #ccc;
+    text-transform: uppercase;
+    transition: transform 0.5s;
+    border-radius: 15px;
+  }
+  .nav ul li a:active {
+    transform: scale(0.2);
+    opacity: 1;
+    filter: blur(0);
+  }
+  .nav ul li a:active:before {
+    transition: transform 0.5s;
+    transform-origin: right;
+    transform: scaleX(1);
+  }
+  .nav ul li a:before {
+    content: "";
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(0);
+    z-index: -1;
   }
 
   .selfie {
