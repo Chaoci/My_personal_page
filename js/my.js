@@ -7,4 +7,9 @@ $(function () {
 		//h2 在父層 .question 元素中，找到其他 .question 同層元素，再找到該同層元素的 p 標籤，並向上收闔
 		$('.slide').parent().siblings().find("li").slideUp();
 	});
+
+    $(".slide li").click(function(e){
+        $('.slide').parent().find("li").slideToggle(800);
+        $('.slide').parent().siblings().find("li").slideUp(800);
+    })
 });
