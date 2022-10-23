@@ -110,3 +110,36 @@ body{
         margin-right: 80px;
     }
 }
+
+@media (max-width:450px){
+    .title-box{
+        .top-cloud{
+            position: absolute;
+            top:20px;
+            right:20px;
+        }
+        .bottom-cloud{
+            position: absolute;
+            top:80px;
+            left:20px;
+        }
+    }
+    .mountain{
+        width: 100%;
+    }
+    .middle-container{
+        width: 100%;
+        padding: 20px;
+        .profile-photo{
+            width: 50%;
+        }
+    }
+    .bottom-container{
+        .bottom-link{
+            padding-left: 35px;
+        }
+        .bottom-brand{
+            padding-left: 35px;
+        }
+    }
+}

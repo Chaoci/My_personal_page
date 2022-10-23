@@ -117,4 +117,33 @@ body hr {
 }
 .skill-row2 .skill-content {
   margin-right: 80px;
+}
+
+@media (max-width: 450px) {
+  .title-box .top-cloud {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .title-box .bottom-cloud {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+  }
+  .mountain {
+    width: 100%;
+  }
+  .middle-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .middle-container .profile-photo {
+    width: 50%;
+  }
+  .bottom-container .bottom-link {
+    padding-left: 35px;
+  }
+  .bottom-container .bottom-brand {
+    padding-left: 35px;
+  }
 }/*# sourceMappingURL=style.css.map */
